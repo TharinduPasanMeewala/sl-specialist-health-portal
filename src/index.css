@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #0056b3;
+  --brand-accent: #17a2b8;
+  --brand-bg: #ffffff;
+  --brand-surface: #f8f9fa;
+  --brand-text: #212529;
+  --brand-radius: 8px;
+  --brand-font: 'Inter, sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--brand-font); background: var(--brand-bg); color: var(--brand-text); }
